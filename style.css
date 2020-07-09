@@ -91,7 +91,7 @@
 
   }
   .fb-icon{
-    background-image: url(images/fb-icon.png);
+    background-image: url(Images/fb-icon.png);
     background-position: center;
     height: 40px;
     width: 40px;
@@ -100,7 +100,7 @@
     transition: 1s;
   }
   .youtube-icon{
-    background-image: url(images/youtube-icon.png);
+    background-image: url(Images/youtube-icon.png);
     background-position: center;
     height: 40px;
     width: 40px;
@@ -109,7 +109,7 @@
     transition: 1s;
   }
   .gmail-icon{
-    background-image: url(images/gmail-icon.png);
+    background-image: url(Images/gmail-icon.png);
     background-position: center;
     height: 40px;
     width: 40px;
@@ -118,7 +118,7 @@
     transition: 1s;
   }
   .linkedin-icon{
-    background-image: url(images/linkedin-icon.png);
+    background-image: url(Images/linkedin-icon.png);
     background-position: center;
     height: 40px;
     width: 40px;
