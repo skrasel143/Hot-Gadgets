@@ -23,7 +23,7 @@
 }
 .order-now:hover{
     box-shadow: 3px 3px 10px rgb(136, 49, 218);
-    padding: 7px 30px;
+    padding: 6px 32px;
     
 }
 .carousel-indicators li{
@@ -58,6 +58,10 @@
     box-shadow: 5px 5px 10px rgb(149, 88, 230);
     border-radius: 30px;   
 }
+.card:hover{
+    box-shadow: none;
+    transition: .5s;
+}
 .card-footer{
     background: #fff;
     border: none;
@@ -74,6 +78,13 @@
     box-shadow: 5px 5px 10px rgb(184, 224, 194);
     border-radius: 30px;
 }
+.cat-1:hover,
+.cat-2:hover, 
+.cat-3:hover, 
+.card-4:hover{
+    box-shadow: none;
+    transition: .5s;
+}
 .under{
     width: 100px;
     height: 8px;
@@ -85,16 +96,16 @@
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 40%;
+    top: 145px;
     left: 0%;
-    padding: 10px;
+    padding: 5px;
 
   }
   .fb-icon{
     background-image: url(Images/fb-icon.png);
     background-position: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 10px;
     box-shadow: 10px 20px 40px rgb(57, 75, 235);
     transition: 1s;
@@ -102,8 +113,8 @@
   .youtube-icon{
     background-image: url(Images/youtube-icon.png);
     background-position: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 10px;
     box-shadow: 10px 20px 40px rgb(226, 66, 66);
     transition: 1s;
@@ -111,8 +122,8 @@
   .gmail-icon{
     background-image: url(Images/gmail-icon.png);
     background-position: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 10px;
     box-shadow: 10px 20px 40px rgb(230, 165, 165);
     transition: 1s;
@@ -120,8 +131,8 @@
   .linkedin-icon{
     background-image: url(Images/linkedin-icon.png);
     background-position: center;
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
     border-radius: 10px;
     box-shadow: 10px 20px 40px rgb(62, 142, 247);
     transition: 1s;
@@ -133,7 +144,8 @@
   }
   button:hover{
     box-shadow: none;
-    padding: 30px;
+    padding: 20px;
+    transition: .2s;
   }
 
 #main-footer{
