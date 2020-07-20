@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="Images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="Images/logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="all" href="#">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#smartphone">Product</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+    </div>
+
+<!-- Carousel -->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-5">
+                            <h1>Macbook Pro</h1>
+                            <p>If you want a latest Macbook, you have now more options than ever, including quality of graphics.</p>
+                            <button class="order-now">Order Now ></button>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="Images/slide-2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-5">
+                            <h1>Google Home Mini</h1>
+                            <p>Your personal assistant in a box: Your very own voice-enabled PA helps you stay organized and keeps you up to date about your schedule, commute, flight information, grocery shopping, and much more</p>
+                            <button class="order-now">Order Now ></button>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="Images/slide-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-5">
+                            <h1>JBL Portable Wireless Speaker</h1>
+                            <p>Hear the bass, feel the bass, see the bass. Dual external passive radiators demonstrate just how powerful your speakers are</p>
+                            <button class="order-now">Order Now ></button>
+                        </div>
+                        <div class="col-md-7">
+                            <img src="Images/slide-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<!-- Smartphone -->
+    <div class="container" id="smartphone">
+        <div class="d-flex justify-content-between mb-3">
+            <h3>Smartphone</h3>
+            <a href="#all" class="see-all">See All</a>
+        </div>
+        <div class="card-deck">
+            <div class="card smartphone">
+                <img src="Images/phone-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">iPhone 11 Pro</h5>
+                    <p class="card-text">Grab and explore a new world with the best and exclusive price</p>
+                    <h5>Tk.135000</h5>
+                    <button class="order-now">Buy Now</button>
+                </div>
+            </div>
+            <div class="card smartphone">
+                <img src="Images/phone-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Samsung Galaxy Note10+</h5>
+                    <p class="card-text">Introducing next-level power with new galaxy note10+</p>
+                    <h5>Tk.75000</h5>
+                    <button class="order-now">Buy Now</button>
+                </div>
+            </div>
+            <div class="card smartphone">
+                <img src="Images/phone-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Redmi Pro</h5>
+                    <p class="card-text">Capture every moment with the clear and amazing camera feature</p>
+                    <h5>Tk.53000</h5>
+                    <button class="order-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Laptop -->
+    <div class="container" id="laptop">
+        <div class="d-flex justify-content-between mb-3">
+            <h3>Laptop</h3>
+            <a href="#" id="see-all">See All</a>
+        </div>
+        <div class="d-flex justify-content-between mb-3">
+            <div class="card-deck">
+                <div class="card laptop">
+                    <img src="Images/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                        <p class="card-text">Some quick example text to build on
+                            the card title.
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <h5>Tk.65200</h5>
+                        <button class="order-now">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card laptop">
+                    <img src="Images/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15 </h5>
+                        <p class="card-text">Some quick example text to build on
+                            the card title.
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <h5>Tk.125000</h5>
+                        <button class="order-now">Buy Now</button>
+                    </div>
+                </div>
+                <div class="card laptop">
+                    <img src="Images/product-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus VivoBook </h5>
+                        <p class="card-text">Some quick example text to build on
+                            the card title.
+                        </p>
+
+                    </div>
+                    <div class="card-footer">
+                        <h5>Tk.86300</h5>
+                        <button class="order-now">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Category -->
+    <div class="container">
+        <div class="category-head">
+            <h3>Categories<hr class="under"></hr></h3>
+        </div>
+        <div class="row">
+            <div class="col-md-3 cat-1 d-flex align-items-center justify-content-center">
+                <div class="cat">
+                    <img src="images/bag.png" alt="">
+                    <h5>Bag</h5>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="cat-2">
+                    <img src="Images/perfume.png" alt="">
+                    <h5>Perfume</h5>
+                </div>
+                <br>
+                <div class="cat-3">
+                    <img src="Images/shoe.png" alt="">
+                    <h5>Shoe</h5>
+                </div>
+            </div>
+
+            <div class="col-md-6 card-4">
+                <img src="Images/pale-order.png" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+<!-- sidebar -->
+    <div class="sidebar">
+        <nav id="navbar">
+            <div class="fixMe">
+             <button class="fb-icon"><a href="https://www.facebook.com/skrasel143/" target="_blank"></a></button>
+             <button class="youtube-icon"><a href="https://www.youtube.com/channel/UCSQavxY_3bMPxhQKUNCNZfw" target="_blank"></a></button>
+              <button class="gmail-icon"><a href="skrasel143@gmail.com" target="_blank"></a></button>
+              <button class="linkedin-icon"><a href="https://www.linkedin.com/in/sk-rasel-2b7a74189/" target="_blank"></a></button>
+            </div>
+         </nav>
+    </div>
+
+    <footer id="main-footer">
+        <p>&copy; 2020 Hot Gadgets | Singapore e-commerce.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
